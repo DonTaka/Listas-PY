@@ -14,5 +14,9 @@ arr2 = np.arange(7,13).reshape([2,3])
 
 print(f"Arreglo 1 \n{arr1}")
 print(f"Arreglo 2 \n{arr2}")
+#Axis dirige la orientacion de la fusion
+#Axis = 0 Vertical , se agregan los datos
+#Al final del primer arreglo
+#Axis = 1 Horizontal, se agregan de forma horizontal continuando cada piso de arreglo
 arr1 = np.concatenate((arr1,arr2),axis=1)
 print(f"Arreglo combinado vertical \n{arr1}")
