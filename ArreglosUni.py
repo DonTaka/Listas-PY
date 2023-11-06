@@ -20,7 +20,7 @@ print(array.shape)
 #Stop = Hasta donde mostramos el arreglo Menos 1
 #Step = De cuanto en cuanto mostramos el arreglo
 #Mostramos arreglo desde el inicio hasta posicion 2(2 Menos 1)
-print(array[0:2])
+print(array[0:2:1])
 
 #Mostramos los datos del arreglo de 2 en 2
 print(array[::2])
